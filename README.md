@@ -1,14 +1,10 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdiving-react%2Fstudy-react-deepdive&count_bg=%23003366&title_bg=%234673A0&icon=pinboard.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-# study-react-deepdive
-
-모던 리액트 Deep Dive
-
-<br>
-
 ## 스터디 소개
 
-[모던 리액트 Deep Dive](https://wikibook.co.kr/react-deep-dive/) 책을 기반으로 한 스터디입니다.
+2024년 1월 2일부터 시작한 모던 [모던 리액트 Deep Dive](https://wikibook.co.kr/react-deep-dive/)책 기반 스터디입니다. 온라인으로 총 9명이 참여하였으며, 매주 화요일 저녁에 진행되었습니다.
+
+<br>
 
 > (참고) [예제코드](https://github.com/wikibook/react-deep-dive-example)
 
@@ -16,20 +12,30 @@
 
 ## 스터디 진행 방식
 
-- 참석이 어려우신 경우, 미리 연락 주시어 불참을 알려주시기 바랍니다.
-- 스터디 모임은 매주 화요일 저녁 9시에 시작됩니다.
-- 첫 모임은 2024년 1월 2일 화요일 저녁 9시에 예정되어 있습니다.
-- 각 스터디 세션은 최대 2시간 동안 진행됩니다.
-- 내용 정리 및 공유는 GitHub를 통해 이루어질 예정이며, 공지사항 전달 및 커뮤니케이션은 Discord에서 진행됩니다.
-- 첫 번째 스터디에서는 각 챕터별로 선정된 2-3명의 발표자가 5~10분간 발표를 하고, 그 후에 질의응답 시간을 가질 예정입니다.
-- 첫 스터디 이후, 스터디의 진행 방식을 재검토하고 필요한 조정을 할 계획입니다.
-- 브랜치 생성 규칙:
-  - 이름이나 닉네임으로 브랜치를 만들어주세요. - 예: 'johndoe'의 경우 브랜치명은 "johndoe-chapter1"
-  - 작업 완료 후 메인 브랜치로 병합하기 위한 Pull Request를 할 때도 같은 이름 규칙을 적용해 주세요.
-- MD 생성 규칙:
-  - 챕터/닉네임.md 로 만들어주세요. - 예: 공부 중인 챕터가 'chapter01'이고 닉네임이 'hyeok999'경우, "chapter01/hyeok999.md" 작성
+- 참여자는 각 주차별로 할당된 챕터의 내용을 정리하고 발표했습니다.
+- 발표 후에는 발표 내용을 바탕으로 자유로운 토론을 진행했습니다.
+- 발표자는 발표 내용을 GitHub 저장소에 정리하고 공유했습니다.
+- 주요 커뮤니케이션은 Discord를 통해 이루어졌습니다.
 
 <br>
+
+## 주요 기여
+
+### 4장 서버사이드 렌더링 리딩 및 코드 작성
+스터디 진행 도중 4장 서버사이드 렌더링 부분을 직접 리딩했습니다. 기존 스터디 방식에서 발견된 비효율적인 진행 방식과 참여도 저하 문제를 해결하고자 새로운 방식으로 스터디를 리드했습니다.
+
+### 변경된 스터디 방식
+- 발표 시간을 줄이고 토론 중심으로 진행.
+- GitHub 저장소의 Discussion 페이지를 활용하여 미리 논의할 주제를 공유.
+- 미리 질문 템플릿을 작성하여 스터디원들이 의견을 준비할 수 있도록 유도.
+
+### next js 프로젝트 템플릿 제공
+서버사이드 렌더링과 관련된 Next.js 기능(SSR, SSG, ISR, On-Demand Revalidation)을 적용한 예제 코드를 작성하여 스터디원들이 쉽게 이해할 수 있도록 도왔습니다. 작성된 예제 코드는 [hyjoong/nextjs-tutorial](https://github.com/hyjoong/nextjs-tutorial) 저장소에서 확인할 수 있습니다.
+
+### 회고글
+- 스터디 리딩 경험에 대한 개인적인 회고는 블로그에 작성했습니다. 블로그 글은 아래 링크에서 확인할 수 있습니다.
+[모던 리액트 Deep Dive 4장 리딩 회고](https://velog.io/@hyunjoong/모던-리액트-Deep-dive-4장-리딩-회고-18jts8db)
+
 
 ## 주차별 학습 로드맵
 
